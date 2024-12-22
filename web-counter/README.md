@@ -17,13 +17,11 @@ To quickly get the project running on your local machine, follow these steps:
 3. **Install dependencies**: Make sure you have Node.js and npm installed. If not, download and install them from Node.js download page.
 
     Then, install the necessary dependencies:
-    ```
-    bash
+    ```bash
     npm install
     ```
 4. **Run the project**: Start the development server:
-    ```
-    bash
+    ```bash
     npm start
     ```
     Open http://localhost:3000 in your browser to see the app running.
@@ -66,13 +64,11 @@ If you’d like to contribute, fork the repository, make your changes, and then 
 
 ## Notes
 * **Missing `node_modules`**: If you run into an issue where the `node_modules` folder is missing or if dependencies aren't installed, simply run the following command to restore them:
-  ```
-  bash
+  ```bash
   npm install
   ```
 * **Build for Production**: If you're ready to deploy your app, use the following command to create an optimized build:
-  ```
-  bash
+  ```bash
   npm run build
   ```
 This will create a production `build` in the build folder, ready for deployment.
